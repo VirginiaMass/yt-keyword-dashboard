@@ -4,6 +4,7 @@ import pandas as pd
 from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
+from upload_to_gcs import upload_json_to_gcs
 
 # Load API key from .env
 load_dotenv()
@@ -83,8 +84,12 @@ def fetch_all_keywords():
 
         print(f"  Found {len(video_ids)} videos")
 
+        # Get stats for those videos
         stats = get_video_stats(video_ids)
         all_results[keyword] = stats
+
+        # Upload raw JSON to Cloud Storage
+        upload_json_to_gcs(stats, keyword)
 
     return all_results
 
