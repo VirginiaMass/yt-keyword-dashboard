@@ -5,6 +5,7 @@ from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 from upload_to_gcs import upload_json_to_gcs
+from logger import log_failure, log_summary
 
 # Load API key from .env
 load_dotenv()
@@ -60,6 +61,7 @@ def get_video_stats(video_ids):
 def fetch_all_keywords():
     keywords_df = load_keywords()
     all_results = {}
+    failed_keywords = []
 
     for _, row in keywords_df.iterrows():
         keyword = row["keyword"]
@@ -70,26 +72,42 @@ def fetch_all_keywords():
 
         print(f"\nFetching: '{keyword}' | region: {region} | last {date_range_days} days")
 
-        params = build_search_params(keyword, region, language, max_results, date_range_days)
-        search_results = search_videos(params)
+        try:
+            # Build params and search
+            params = build_search_params(keyword, region, language, max_results, date_range_days)
+            search_results = search_videos(params)
 
-        video_ids = [
-            item["id"]["videoId"]
-            for item in search_results.get("items", [])
-        ]
+            # Extract video IDs
+            video_ids = [
+                item["id"]["videoId"]
+                for item in search_results.get("items", [])
+            ]
 
-        if not video_ids:
-            print(f"  No videos found for '{keyword}'")
+            if not video_ids:
+                log_failure("fetch", keyword, "No videos found")
+                failed_keywords.append(keyword)
+                continue
+
+            print(f"  Found {len(video_ids)} videos")
+
+            # Get stats for those videos
+            stats = get_video_stats(video_ids)
+            all_results[keyword] = stats
+            print(f"  Fetched {len(video_ids)} videos for '{keyword}'")
+
+            # Upload raw JSON to Cloud Storage
+            upload_json_to_gcs(stats, keyword)
+            print(f"  Uploaded '{keyword}' to Cloud Storage")
+
+        except Exception as e:
+            log_failure("fetch", keyword, e)
+            failed_keywords.append(keyword)
             continue
 
-        print(f"  Found {len(video_ids)} videos")
-
-        # Get stats for those videos
-        stats = get_video_stats(video_ids)
-        all_results[keyword] = stats
-
-        # Upload raw JSON to Cloud Storage
-        upload_json_to_gcs(stats, keyword)
+    # Log summary at the end
+    total = len(keywords_df)
+    succeeded = total - len(failed_keywords)
+    log_summary(total, succeeded, failed_keywords)
 
     return all_results
 
