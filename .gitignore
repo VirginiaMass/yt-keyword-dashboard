@@ -222,3 +222,7 @@ config/portolioprojects-1026dcc4ef86.json
 
 #logging files
 logs/
+
+docs/
+
+config/keyword_registry.csv
