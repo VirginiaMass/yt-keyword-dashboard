@@ -226,3 +226,5 @@ logs/
 docs/
 
 config/keyword_registry.csv
+
+config/*_backup_*.csv

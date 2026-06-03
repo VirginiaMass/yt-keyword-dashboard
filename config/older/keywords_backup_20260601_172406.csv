@@ -1,0 +1,205 @@
+keyword_id,search_string,language,region,max_results,search_type,order,frequency,batch
+KW0001,fantasy books,en,US,50,video,relevance,daily,batch_1
+KW0002,fantasy book recommendations,en,US,50,video,relevance,daily,batch_2
+KW0003,epic fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0004,cozy fantasy,en,US,50,video,relevance,daily,batch_1
+KW0005,romantasy,en,US,50,video,relevance,daily,batch_1
+KW0006,dark fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0007,progression fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0008,grimdark books,en,US,50,video,relevance,daily,batch_2
+KW0009,urban fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0010,historical fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0011,portal fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0012,sword and sorcery books,en,US,50,video,relevance,daily,batch_2
+KW0013,gaslamp fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0014,mythological retelling,en,US,50,video,relevance,daily,batch_2
+KW0015,Arthurian fantasy,en,US,50,video,relevance,daily,batch_2
+KW0016,science fiction books,en,US,50,video,relevance,daily,batch_1
+KW0017,sci fi books,en,US,50,video,relevance,daily,batch_1
+KW0018,hard sci fi,en,US,50,video,relevance,daily,batch_2
+KW0019,space opera books,en,US,50,video,relevance,daily,batch_2
+KW0020,military sci fi books,en,US,50,video,relevance,daily,batch_2
+KW0021,cyberpunk books,en,US,50,video,relevance,daily,batch_2
+KW0022,solarpunk,en,US,50,video,relevance,daily,batch_1
+KW0023,hopepunk books,en,US,50,video,relevance,daily,batch_2
+KW0024,climate fiction,en,US,50,video,relevance,daily,batch_1
+KW0025,cli fi,en,US,50,video,relevance,daily,batch_2
+KW0026,dystopian fiction books,en,US,50,video,relevance,daily,batch_2
+KW0027,post apocalyptic books,en,US,50,video,relevance,daily,batch_2
+KW0028,first contact sci fi,en,US,50,video,relevance,daily,batch_2
+KW0029,AI fiction,en,US,50,video,relevance,daily,batch_2
+KW0030,horror books,en,US,50,video,relevance,daily,batch_1
+KW0031,gothic horror books,en,US,50,video,relevance,daily,batch_2
+KW0032,folk horror books,en,US,50,video,relevance,daily,batch_2
+KW0033,cosmic horror books,en,US,50,video,relevance,daily,batch_2
+KW0034,psychological horror books,en,US,50,video,relevance,daily,batch_2
+KW0035,mystery books,en,US,50,video,relevance,daily,batch_1
+KW0036,detective fiction,en,US,50,video,relevance,daily,batch_2
+KW0037,thriller books,en,US,50,video,relevance,daily,batch_1
+KW0038,psychological thriller,en,US,50,video,relevance,daily,batch_2
+KW0039,cozy mystery,en,US,50,video,relevance,daily,batch_2
+KW0040,romance books,en,US,50,video,relevance,daily,batch_1
+KW0041,contemporary romance,en,US,50,video,relevance,daily,batch_2
+KW0042,historical romance,en,US,50,video,relevance,daily,batch_2
+KW0043,dark romance,en,US,50,video,relevance,daily,batch_1
+KW0044,paranormal romance,en,US,50,video,relevance,daily,batch_2
+KW0045,monster romance,en,US,50,video,relevance,daily,batch_2
+KW0046,historical fiction,en,US,50,video,relevance,daily,batch_1
+KW0047,WW2 fiction,en,US,50,video,relevance,daily,batch_2
+KW0048,ancient rome fiction,en,US,50,video,relevance,daily,batch_2
+KW0049,medieval fiction,en,US,50,video,relevance,daily,batch_2
+KW0050,renaissance fiction,en,US,50,video,relevance,daily,batch_2
+KW0051,victorian fiction,en,US,50,video,relevance,daily,batch_2
+KW0052,literary fiction,en,US,50,video,relevance,daily,batch_1
+KW0053,contemporary fiction,en,US,50,video,relevance,daily,batch_1
+KW0054,book club fiction,en,US,50,video,relevance,daily,batch_2
+KW0055,nonfiction books,en,US,50,video,relevance,daily,batch_1
+KW0056,history books,en,US,50,video,relevance,daily,batch_1
+KW0057,military history,en,US,50,video,relevance,daily,batch_3
+KW0058,ancient history,en,US,50,video,relevance,daily,batch_3
+KW0059,medieval history,en,US,50,video,relevance,daily,batch_3
+KW0060,world history,en,US,50,video,relevance,daily,batch_3
+KW0061,political books,en,US,50,video,relevance,daily,batch_3
+KW0062,democracy books,en,US,50,video,relevance,daily,batch_3
+KW0063,authoritarianism books,en,US,50,video,relevance,daily,batch_3
+KW0064,social justice books,en,US,50,video,relevance,daily,batch_3
+KW0065,feminist books,en,US,50,video,relevance,daily,batch_3
+KW0066,feminist nonfiction,en,US,50,video,relevance,daily,batch_3
+KW0067,women studies books,en,US,50,video,relevance,daily,batch_3
+KW0068,climate change books,en,US,50,video,relevance,daily,batch_3
+KW0069,environmental books,en,US,50,video,relevance,daily,batch_3
+KW0070,sustainability books,en,US,50,video,relevance,daily,batch_3
+KW0071,science books,en,US,50,video,relevance,daily,batch_3
+KW0072,popular science books,en,US,50,video,relevance,daily,batch_3
+KW0073,astronomy books,en,US,50,video,relevance,daily,batch_3
+KW0074,neuroscience books,en,US,50,video,relevance,daily,batch_3
+KW0075,productivity books,en,US,50,video,relevance,weekly,batch_4
+KW0076,self improvement books,en,US,50,video,relevance,weekly,batch_4
+KW0077,habit books,en,US,50,video,relevance,weekly,batch_4
+KW0078,black authors,en,US,50,video,relevance,daily,batch_3
+KW0079,black literature,en,US,50,video,relevance,daily,batch_3
+KW0080,african american literature,en,US,50,video,relevance,daily,batch_3
+KW0081,asian authors,en,US,50,video,relevance,daily,batch_3
+KW0082,asian literature,en,US,50,video,relevance,daily,batch_3
+KW0083,latinx authors,en,US,50,video,relevance,daily,batch_3
+KW0084,indigenous authors,en,US,50,video,relevance,daily,batch_1
+KW0085,indigenous literature,en,US,50,video,relevance,daily,batch_1
+KW0086,native american literature,en,US,50,video,relevance,daily,batch_3
+KW0087,indigenous reading list,en,US,50,video,relevance,daily,batch_3
+KW0088,queer books,en,US,50,video,relevance,daily,batch_3
+KW0089,queer literature,en,US,50,video,relevance,daily,batch_3
+KW0090,LGBTQ books,en,US,50,video,relevance,daily,batch_3
+KW0091,lesbian books,en,US,50,video,relevance,daily,batch_3
+KW0092,gay books,en,US,50,video,relevance,daily,batch_3
+KW0093,trans books,en,US,50,video,relevance,daily,batch_3
+KW0094,disability books,en,US,50,video,relevance,daily,batch_3
+KW0095,disabled authors,en,US,50,video,relevance,daily,batch_3
+KW0096,neurodivergent books,en,US,50,video,relevance,daily,batch_3
+KW0097,autism books,en,US,50,video,relevance,daily,batch_3
+KW0098,feminist fiction,en,US,50,video,relevance,daily,batch_3
+KW0099,feminist literature,en,US,50,video,relevance,daily,batch_3
+KW0100,women authors,en,US,50,video,relevance,daily,batch_3
+KW0101,decolonized reading list,en,US,50,video,relevance,daily,batch_1
+KW0102,decolonial books,en,US,50,video,relevance,daily,batch_3
+KW0103,decolonizing literature,en,US,50,video,relevance,daily,batch_3
+KW0104,anti colonial books,en,US,50,video,relevance,daily,batch_3
+KW0105,critical theory books,en,US,50,video,relevance,daily,batch_3
+KW0106,postcolonial literature,en,US,50,video,relevance,daily,batch_3
+KW0107,feminist theory books,en,US,50,video,relevance,daily,batch_3
+KW0108,intersectional feminism books,en,US,50,video,relevance,daily,batch_3
+KW0109,comfort reads,en,US,50,video,relevance,daily,batch_1
+KW0110,cozy books,en,US,50,video,relevance,daily,batch_1
+KW0111,books that feel like a hug,en,US,50,video,relevance,daily,batch_1
+KW0112,books for anxiety,en,US,50,video,relevance,daily,batch_3
+KW0113,books for burnout,en,US,50,video,relevance,daily,batch_3
+KW0114,healing fiction,en,US,50,video,relevance,daily,batch_3
+KW0115,sad books,en,US,50,video,relevance,daily,batch_3
+KW0116,devastating books,en,US,50,video,relevance,daily,batch_3
+KW0117,heartbreaking books,en,US,50,video,relevance,daily,batch_3
+KW0118,uplifting books,en,US,50,video,relevance,daily,batch_3
+KW0119,hopeful books,en,US,50,video,relevance,daily,batch_3
+KW0120,escapist books,en,US,50,video,relevance,daily,batch_3
+KW0121,cottagecore books,en,US,50,video,relevance,daily,batch_3
+KW0122,cottagecore reading,en,US,50,video,relevance,daily,batch_3
+KW0123,dark academia books,en,US,50,video,relevance,daily,batch_3
+KW0124,light academia books,en,US,50,video,relevance,daily,batch_3
+KW0125,gothic books,en,US,50,video,relevance,daily,batch_3
+KW0126,nature writing,en,US,50,video,relevance,daily,batch_3
+KW0127,forest books,en,US,50,video,relevance,daily,batch_3
+KW0128,solarpunk books,en,US,50,video,relevance,daily,batch_3
+KW0129,hopepunk books,en,US,50,video,relevance,daily,batch_3
+KW0130,enemies to lovers books,en,US,50,video,relevance,daily,batch_1
+KW0131,found family books,en,US,50,video,relevance,daily,batch_1
+KW0132,chosen one trope books,en,US,50,video,relevance,daily,batch_2
+KW0133,morally grey character books,en,US,50,video,relevance,daily,batch_2
+KW0134,slow burn romance books,en,US,50,video,relevance,daily,batch_1
+KW0135,second chance romance books,en,US,50,video,relevance,daily,batch_2
+KW0136,fake dating books,en,US,50,video,relevance,daily,batch_2
+KW0137,grumpy sunshine romance,en,US,50,video,relevance,daily,batch_2
+KW0138,touch her and die romance,en,US,50,video,relevance,daily,batch_2
+KW0139,one bed trope books,en,US,50,video,relevance,daily,batch_2
+KW0140,academy setting books,en,US,50,video,relevance,daily,batch_2
+KW0141,booktok,en,US,50,video,relevance,daily,batch_1
+KW0142,fantasy booktok,en,US,50,video,relevance,daily,batch_2
+KW0143,romantasy booktok,en,US,50,video,relevance,daily,batch_2
+KW0144,sci fi booktok,en,US,50,video,relevance,daily,batch_2
+KW0145,booktube,en,US,50,video,relevance,daily,batch_1
+KW0146,fantasy booktube,en,US,50,video,relevance,daily,batch_2
+KW0147,reading vlog,en,US,50,video,relevance,daily,batch_1
+KW0148,reading wrap up,en,US,50,video,relevance,daily,batch_1
+KW0149,monthly reading wrap up,en,US,50,video,relevance,daily,batch_2
+KW0150,reading journal,en,US,50,video,relevance,daily,batch_2
+KW0151,reading tracker,en,US,50,video,relevance,daily,batch_2
+KW0152,reading challenge,en,US,50,video,relevance,daily,batch_2
+KW0153,52 books challenge,en,US,50,video,relevance,daily,batch_2
+KW0154,book haul,en,US,50,video,relevance,daily,batch_2
+KW0155,bookstore vlog,en,US,50,video,relevance,daily,batch_2
+KW0156,used book haul,en,US,50,video,relevance,daily,batch_2
+KW0157,bookshelf tour,en,US,50,video,relevance,daily,batch_2
+KW0158,home library,en,US,50,video,relevance,daily,batch_2
+KW0159,Hugo Awards,en,US,25,video,relevance,weekly,batch_4
+KW0160,Nebula Awards,en,US,25,video,relevance,weekly,batch_4
+KW0161,World Fantasy Award,en,US,25,video,relevance,weekly,batch_4
+KW0162,Arthur C Clarke Award,en,US,25,video,relevance,weekly,batch_4
+KW0163,Locus Awards,en,US,25,video,relevance,weekly,batch_4
+KW0164,Brandon Sanderson,en,US,25,video,relevance,weekly,batch_4
+KW0165,Sarah J. Maas,en,US,25,video,relevance,weekly,batch_4
+KW0166,Rebecca Yarros,en,US,25,video,relevance,weekly,batch_4
+KW0167,T. Kingfisher,en,US,25,video,relevance,weekly,batch_4
+KW0168,Martha Wells,en,US,25,video,relevance,weekly,batch_4
+KW0169,Becky Chambers,en,US,25,video,relevance,weekly,batch_4
+KW0170,N. K. Jemisin,en,US,25,video,relevance,weekly,batch_4
+KW0171,Ursula K. Le Guin,en,US,25,video,relevance,weekly,batch_4
+KW0172,Octavia Butler,en,US,25,video,relevance,weekly,batch_4
+KW0173,Emily Henry,en,US,25,video,relevance,weekly,batch_4
+KW0174,Taylor Jenkins Reid,en,US,25,video,relevance,weekly,batch_4
+KW0175,Colleen Hoover,en,US,25,video,relevance,weekly,batch_4
+KW0176,ya books,en,US,50,video,relevance,daily,batch_1
+KW0177,young adult books,en,US,50,video,relevance,daily,batch_2
+KW0178,ya fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0179,women's fiction books,en,US,50,video,relevance,daily,batch_2
+KW0180,chick lit books,en,US,50,video,relevance,daily,batch_2
+KW0181,classic books,en,US,50,video,relevance,daily,batch_2
+KW0182,memoir books,en,US,50,video,relevance,daily,batch_1
+KW0183,self help books,en,US,50,video,relevance,daily,batch_2
+KW0184,latinx books,en,US,50,video,relevance,daily,batch_3
+KW0185,latinx authors books,en,US,50,video,relevance,daily,batch_3
+KW0186,kobo ereader,en,US,50,video,relevance,daily,batch_1
+KW0187,kobo books,en,US,50,video,relevance,daily,batch_1
+KW0188,kindle books,en,US,50,video,relevance,daily,batch_1
+KW0189,kindle reading,en,US,50,video,relevance,daily,batch_2
+KW0190,goodreads books,en,US,50,video,relevance,daily,batch_1
+KW0191,storygraph,en,US,50,video,relevance,daily,batch_1
+KW0192,hardcover app,en,US,50,video,relevance,daily,batch_2
+KW0193,book of the month club,en,US,50,video,relevance,daily,batch_2
+KW0194,currently reading books,en,US,50,video,relevance,daily,batch_1
+KW0195,reading community,en,US,50,video,relevance,daily,batch_2
+KW0196,tbr books,en,US,50,video,relevance,daily,batch_1
+KW0197,am reading books,en,US,50,video,relevance,daily,batch_2
+KW0198,now reading books,en,US,50,video,relevance,daily,batch_2
+KW0199,reading goals,en,US,50,video,relevance,daily,batch_2
+KW0200,book of the month,en,US,50,video,relevance,daily,batch_2
+KW0201,fae fantasy books,en,US,50,video,relevance,daily,batch_1
+KW0202,diverse fantasy books,en,US,50,video,relevance,daily,batch_2
+KW0203,LitRPG books,en,US,50,video,date,daily,batch_2
+KW0204,kobo reading,en,US,50,video,date,daily,batch_1
